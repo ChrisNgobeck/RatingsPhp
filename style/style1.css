@@ -1,0 +1,22 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.header .welcome {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.logout-button {
+    background-color: #ff4b5c;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
